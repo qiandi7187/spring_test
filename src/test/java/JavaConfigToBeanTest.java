@@ -29,7 +29,6 @@ public class JavaConfigToBeanTest {
     @Qualifier("p3")
     private Person p3;
 
-    //测试构造方法注入
     @Test
     public void testPerson(){
         person.getPet().shout();
