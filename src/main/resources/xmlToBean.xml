@@ -6,16 +6,16 @@
 
 
 
-    <bean id="car" class="com.xml.example.Car"/>
-    <bean id="carService"  class="com.xml.example.CarService" >
+    <bean id="car" class="com.example.xml.Car"/>
+    <bean id="carService"  class="com.example.xml.CarService" >
         <!--给构造函数传递参数，没有的话则调用默认构造方法  -->
         <constructor-arg ref="car"/>
     </bean>
 
 
 
-    <bean id="tank" class="com.xml.example.Tank"/>
-    <bean id="tankService" class="com.xml.example.TankService">
+    <bean id="tank" class="com.example.xml.Tank"/>
+    <bean id="tankService" class="com.example.xml.TankService">
         <!-- 配置属性 -->
         <property name="moveable" ref="tank"/>
     </bean>

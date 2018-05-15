@@ -1,8 +1,5 @@
-package com.xml.example;
+package com.example.xml;
 
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * 构造器注入测试

@@ -1,4 +1,4 @@
-package com.xml.example;
+package com.example.xml;
 
 public interface Moveable {
 

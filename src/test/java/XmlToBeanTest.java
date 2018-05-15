@@ -1,5 +1,5 @@
-import com.xml.example.CarService;
-import com.xml.example.TankService;
+import com.example.xml.CarService;
+import com.example.xml.TankService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -13,8 +13,8 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * 本例用来测试spring中xml方式初始化bean的方式
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = "classpath:moveable.xml")
-public class MoveableTest {
+@ContextConfiguration(locations = "classpath:xmlToBean.xml")
+public class XmlToBeanTest {
 
     private final Logger logger= LoggerFactory.getLogger(this.getClass());
 
