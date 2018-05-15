@@ -1,4 +1,4 @@
-package com.example.javaConfig;
+package example.ioc.javaConfig;
 
 public class Person {
 

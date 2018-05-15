@@ -1,7 +1,6 @@
-package com.example.javaConfig;
+package example.ioc.javaConfig;
 
 
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

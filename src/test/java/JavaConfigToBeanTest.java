@@ -1,5 +1,5 @@
-import com.example.javaConfig.Person;
-import com.example.javaConfig.PetConfig;
+import example.ioc.javaConfig.Person;
+import example.ioc.javaConfig.PetConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;

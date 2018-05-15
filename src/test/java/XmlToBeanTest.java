@@ -1,5 +1,5 @@
-import com.example.xml.CarService;
-import com.example.xml.TankService;
+import example.ioc.xml.CarService;
+import example.ioc.xml.TankService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;

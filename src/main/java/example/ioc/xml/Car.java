@@ -1,14 +1,13 @@
-package com.example.xml;
-
+package example.ioc.xml;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class Tank implements Moveable{
+public class Car implements Moveable{
 
     private final Logger logger= LoggerFactory.getLogger(this.getClass());
 
     public void move() {
-        logger.info("Tank is moving");
+        logger.info("Car is moving");
     }
 }

@@ -1,4 +1,4 @@
-package com.example.xml;
+package example.ioc.xml;
 
 /**
  * 构造器注入测试

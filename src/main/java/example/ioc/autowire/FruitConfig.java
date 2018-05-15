@@ -1,4 +1,4 @@
-package com.example.autowire;
+package example.ioc.autowire;
 
 
 import org.springframework.context.annotation.ComponentScan;

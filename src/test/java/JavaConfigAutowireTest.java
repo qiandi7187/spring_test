@@ -1,5 +1,5 @@
-import com.example.autowire.Fruit;
-import com.example.autowire.FruitConfig;
+import example.ioc.autowire.Fruit;
+import example.ioc.autowire.FruitConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
