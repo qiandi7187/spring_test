@@ -1,7 +1,5 @@
 package pojo;
 
-import pojo.Fruit;
-
 public class Pear implements Fruit {
 
     public void grow() {

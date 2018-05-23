@@ -1,5 +1,5 @@
-import fruit.Fruit;
-import fruit.FruitConfig;
+import pojo.Fruit;
+import pojo.FruitConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;

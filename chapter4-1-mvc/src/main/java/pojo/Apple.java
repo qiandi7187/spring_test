@@ -1,8 +1,5 @@
 package pojo;
 
-import pojo.Fruit;
-import org.springframework.beans.factory.config.ConfigurableBeanFactory;
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -10,12 +7,26 @@ public class Apple implements Fruit {
 
     private int count;
 
+    public int getCount() {
+        return count;
+    }
+
     public void setCount(int count) {
         this.count = count;
     }
 
     public void grow() {
         System.out.println("Apple is growing!!!");
-        System.out.println(count++);
+
+    }
+
+    @Override
+    public void count(int i) {
+        System.out.println(i);
+    }
+
+    @Override
+    public void show(int i, String s) {
+        System.out.println("Apple.show  i:"+i+"  s"+s);
     }
 }

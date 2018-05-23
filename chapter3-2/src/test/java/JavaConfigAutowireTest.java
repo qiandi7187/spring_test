@@ -1,12 +1,10 @@
-import fruit.Fruit;
-import fruit.FruitConfig;
+import pojo.Fruit;
+import pojo.FruitConfig;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.core.env.Environment;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
@@ -26,7 +24,7 @@ public class JavaConfigAutowireTest {
 
     @Test
     public void testFruit(){
-        fruit.count(100);
+        fruit.count(100,"test",true);
     }
 
 
