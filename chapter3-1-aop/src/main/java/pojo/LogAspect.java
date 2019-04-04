@@ -17,23 +17,23 @@ public class LogAspect {
     private Logger logger = LoggerFactory.getLogger(this.getClass());
 
 
-    @Before("execution(* fruit.Fruit.grow(..))")
+    @Before("execution(* pojo.Fruit.grow(..))")
     public void beforeLog(){
         logger.info("方法调用前执行");
     }
 
-    @Before("execution(* fruit.Fruit.grow(..))")
+    @Before("execution(* pojo.Fruit.grow(..))")
     public void beforeLog2(){
         logger.info("方法调用前执行2");
     }
 
-    @AfterReturning("execution(* fruit.Fruit.grow())")
+    @AfterReturning("execution(* pojo.Fruit.grow())")
     public void afterLog(){
         logger.info("方法调用后执行");
     }
 
 
-    @Around("execution(* fruit.Fruit.grow())")
+    @Around("execution(* pojo.Fruit.grow())")
     public void aroundLog(ProceedingJoinPoint joinPoint){
         logger.info("方法调用前执行Around");
         try {
